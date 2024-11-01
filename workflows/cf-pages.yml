@@ -1,0 +1,29 @@
+name: cloudflare pages
+
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Change if you need git info
+
+      - name: Setup Zig
+        uses: mlugg/setup-zig@v1
+        with:
+          version: 0.13.0
+          
+      - name: Build
+        run: zig build --summary new
+          
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: ./zig-out
+          command: pages deploy --project-name=gasinfinity-blog
