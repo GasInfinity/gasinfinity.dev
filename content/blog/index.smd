@@ -1,0 +1,12 @@
+---
+.title = "blog",
+.description = "Personal Blog",
+.date = @date(""),
+.author = "GasInfinity",
+.layout = "blog.shtml"
+---
+
+[]($section.id('header'))
+
+[]($section.id('footer'))
+No posts...

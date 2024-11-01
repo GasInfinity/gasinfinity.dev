@@ -1,0 +1,19 @@
+<extend template="base.shtml">
+
+<title id="title" :text="$page.title"></title>
+
+<head id="head">
+    <style>
+        #content > div {
+            border-radius: 10px;
+            width: 90%;
+            padding: 0 2% 0 2%;
+        }
+    </style>
+</head>
+
+<div id="content">
+    <div>
+        <ctx :html="$page.content()"></ctx>
+    </div>
+</div>

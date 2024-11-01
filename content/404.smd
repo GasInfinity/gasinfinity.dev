@@ -1,0 +1,19 @@
+---
+.title = "Not found",
+.description = "404 page not found",
+.date = @date(""),
+.author = "GasInfinity",
+.layout = "404.shtml",
+.aliases = [
+    "404.html",
+],
+---
+
+### Oops!
+
+This page took a detour and  
+is now in a different timeline!
+   
+---
+
+Travel back [home](/)...

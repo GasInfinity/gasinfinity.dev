@@ -1,0 +1,23 @@
+<extend template="base.shtml">
+
+<title id="title" :text="$page.title"></title>
+
+<head id="head">
+    <style>
+        .error-404 {
+            font-weight: 800;
+            font-size: 48px;
+            margin: 2.5% auto;
+        }
+
+        #content > div {
+            border-radius: 10px;
+            padding: 0 2% 0 2%;
+        }
+    </style>
+</head>
+
+<div id="content">
+    <h1 class="error-404">404</h1>
+    <div :html="$page.content()"></div>
+</div>

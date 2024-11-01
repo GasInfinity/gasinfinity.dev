@@ -1,0 +1,57 @@
+:root {
+    --c-bg: #16181A;
+    --c-bgAlt: #1E2124;
+    --c-bgHighlight: #3C4048;
+    --c-fg: #FFFFFF;
+    --c-grey: #7B8496;
+    --c-blue: #5EA1FF;
+    --c-green: #5EFF6C;
+    --c-cyan: #5EF1FF;
+    --c-red: #FF6E5E;
+    --c-yellow: #F1FF5E;
+    --c-magenta: #FF5EF1;
+    --c-pink: #FF5EA0;
+    --c-orange: #FFBD5E;
+    --c-purple: #BD5EFF;
+}
+
+code {
+    background-color: var(--c-bg);
+    color: var(--c-fg);
+}
+
+code .comment {
+    color: var(--c-grey);
+}
+
+code .string {
+    color: var(--c-green);
+}
+
+code .function, code .property, code .tag {
+    color: var(--c-blue);
+}
+
+code .boolean {
+    color: var(--c-cyan);
+}
+
+code .keyword, code .attribute, code .conditional, code .number {
+    color: var(--c-orange);
+}
+
+code .builtin {
+    color: var(--c-magenta);
+}
+
+code .bracket {
+    color: var(--c-red);
+}
+
+code .type {
+    color: var(--c-purple);
+}
+
+code .operator {
+    color: var(--c-pink);
+}

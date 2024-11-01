@@ -1,0 +1,55 @@
+<extend template="base.shtml">
+
+<title id="title" :text="$page.title"></title>
+
+<head id="head">
+    <style>
+        #content > div {
+            border-radius: 10px;
+            width: 90%;
+            padding: 0 2% 0 2%;
+        }
+
+        #content > h1 {
+            margin: 0 0 20px 14px;
+            line-height: 0.1;
+        }
+
+        #content > p {
+            margin: 4px 0 14px 20px;
+            line-height: 0.1;
+            font-size: 12px;
+
+            padding: 8px;
+            border-radius: 5px;
+        }
+        
+        #content > span {
+            margin: 0 0 10px 20px;
+        }
+
+        .tag {
+            background: var(--fg);
+            color: var(--bg);
+            font-size: 12px;
+            padding: 3px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<div id="content">
+    
+    <h1 :text="$page.title"></h1>
+    <span :loop="$page.tags">
+        <span class="tag" :text="$loop.it"></span>
+    </span>
+    
+    
+    <div>
+        <i><p :text="$page.description"></p></i>
+        <hr>
+        <ctx :html="$page.content()"></ctx>
+    </div>
+    <p>Written in <span :text="$page.date.format('January 02, 2006 15:04 UTC')"></span></p>
+</div>

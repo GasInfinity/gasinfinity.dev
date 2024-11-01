@@ -1,0 +1,23 @@
+---
+.title = "~",
+.description = "Home",
+.date = @date(""),
+.author = "GasInfinity",
+.layout = "home.shtml"
+---
+
+[]($section.id('home'))
+## Welcome to my site!  
+
+Here you can find my blog and resume.
+
+---
+Work in progress...
+
+[]($section.id('summary'))
+# gasinfinity
+### software developer
+self-taught programmer  
+nix & neovim enthusiast  
+anime enjoyer  
+gymbro  

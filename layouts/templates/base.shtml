@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head id="head">
+    <meta charset="UTF-8">
+    <title id="title"><super> - <ctx :text="$site.title"></ctx></title>
+    <meta name="twitter:title" content="$page.title.suffix(' - ').suffix($site.title)">
+    <meta property="og:title" content="$page.title.suffix(' - ').suffix($site.title)">
+
+    <meta name="description" content="GasInfinity's website">
+    <meta name="twitter:description" content="GasInfinity's website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="$site.asset('style.css').link()">
+    <link rel="stylesheet" type="text/css" href="$site.asset('fonts.css').link()">
+    <link rel="stylesheet" type="text/css" href="$site.asset('highlight.css').link()">
+    <super>
+  </head>
+  <body>
+    <nav id="menu" class="centered">
+        <li>
+            <ul><a href="/" aria-label="home">~</a></ul>
+            <ul><a href="$site.page('blog').link()">blog</a></ul>
+            <ul><a href="$site.page('about').link()">about</a></ul>
+        </li>
+    </nav>
+    <div id="content">
+      <super>
+    </div>
+  </body>
+</html>

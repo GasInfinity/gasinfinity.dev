@@ -1,0 +1,76 @@
+:root {
+    --bg: #080708;
+    --bg-slate: #1C181C;
+    --menu-slate: #212021;
+    --fg-deepest: #7F7F7F;
+    --fg-deeper: #A5A5A5;
+    --fg-deep: #CCCCCC;
+    --fg: #F2F2F2;
+    --accent: white;
+}
+
+html {
+    font-family: Oxanium;
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+div { background-color: var(--bg-slate); }
+
+#content {
+    background-color: var(--bg);
+    padding: 15px 2% 0 2%;
+}
+
+a:link { color: var(--fg-deeper); }
+
+a:visited { color: var(--fg-deepest); }
+
+a:focus { outline: none; }
+
+a:hover, a:focus { color: var(--fg-deep); }
+
+a:active { color: var(--accent); }
+
+.centered { align-content: center; }
+
+#content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#menu {
+    display: flex;
+    margin: 0 auto;
+    width: min-content;
+    background-color: var(--menu-slate);
+}
+
+#menu ul {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu li {
+    display: flex;
+    list-style-type: none;
+}
+
+#menu a {
+    outline: none;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 15px;
+    display: inline-block;
+
+    transition: 0.2s ease-in-out;
+}
+
+#menu a:hover, #menu a:focus {
+    color: var(--menu-slate);
+    background-color: var(--accent);
+}

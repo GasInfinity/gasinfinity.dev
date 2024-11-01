@@ -1,0 +1,26 @@
+---
+.title = "about",
+.description = "About me",
+.date = @date(""),
+.author = "GasInfinity",
+.layout = "normal.shtml"
+---
+
+Sami "GasInfinity" Gonzalez Boudrez <<me@gasinfinity.dev>>  
+
+- Daily driving linux since **2015**, discovered nix and its greatness in **2024**
+- [Neovim](https://github.com/GasInfinity/Gavin) enjoyer
+- Anime [enthusiast](https://myanimelist.net/profile/gasinfinity)
+- Gymbro since **2022**
+
+Education:
+- **2024-Present** - CS degree at the [Polithectic University of Valencia](https://www.upv.es)
+
+Projects:
+- **Ink**: A performance oriented minigame minecraft server implementation in C#. *Unreleased/local*
+  - Status: On hold (60%? completed). Implemented physics, entity synching, and major parts of protocol. Pending major rewrite.
+  
+- **Rena**: C# multimedia framework w/batteries included. *Unreleased/local*
+  - Includes numerous things like a math library, graphics api abstraction (OGL and D3D11 implemented), windowing api, etc...
+  - Status: On hold. Considering using SDL as a backend for Linux. Pending revisit
+  
