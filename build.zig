@@ -2,8 +2,6 @@ const std = @import("std");
 const zine = @import("zine");
 
 pub fn build(b: *std.Build) !void {
-    const i = 10;
-    _ = i;
     zine.website(b, .{
         .title = "gasinfinity",
         .host_url = "https://gasinfinity.dev",
