@@ -25,5 +25,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          workingDirectory: ./zig-out
-          command: pages deploy --project-name=gasinfinity-blog
+          command: pages deploy ./zig-out --project-name=gasinfinity-blog
