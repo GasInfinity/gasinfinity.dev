@@ -13,7 +13,7 @@
 
         #content > div {
             border-radius: 15px;
-            padding: 0.5% 2% 0.5% 2%;
+            padding: 1% 2% 1% 2%;
         }
 
         #home {
