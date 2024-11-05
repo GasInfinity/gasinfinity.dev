@@ -15,12 +15,21 @@ html {
     color: var(--fg);
 }
 
-div { background-color: var(--bg-slate); }
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+
+    gap: 10px;
+}
 
 #content {
     background-color: var(--bg);
     padding: 15px 2% 0 2%;
 }
+
+#content > div { background-color: var(--bg-slate); }
 
 a:link { color: var(--fg-deeper); }
 
@@ -32,8 +41,6 @@ a:hover, a:focus { color: var(--fg-deep); }
 
 a:active { color: var(--accent); }
 
-.centered { align-content: center; }
-
 #content {
     display: flex;
     flex-flow: column wrap;
@@ -42,9 +49,11 @@ a:active { color: var(--accent); }
 }
 
 #menu {
+    flex: 1;
     display: flex;
     margin: 0 auto;
     width: min-content;
+    height: min-content;
     background-color: var(--menu-slate);
 }
 

@@ -21,7 +21,7 @@
     <super>
   </head>
   <body>
-    <nav id="menu" class="centered">
+    <nav id="menu">
         <li>
             <ul><a href="/" aria-label="home">~</a></ul>
             <ul><a href="$site.page('blog').link()">blog</a></ul>
