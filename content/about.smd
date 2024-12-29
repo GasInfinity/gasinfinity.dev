@@ -14,11 +14,11 @@ Sami "GasInfinity" Gonzalez Boudrez <<me@gasinfinity.dev>>
 - Gymbro since **2022**
 
 Education:
-- **2024-Present** - CS degree at the [Polithectic University of Valencia](https://www.upv.es)
+- **2024-Present** - CS degree at the [Polytechnic University of Valencia](https://www.upv.es)
 
 Projects:
 - **Ink**: A performance oriented minigame minecraft server implementation in C#. *Unreleased/local*
-  - Status: On hold (60%? completed). Implemented physics, entity synching, and major parts of protocol. Pending major rewrite.
+  - Status: On hold (60%? completed). Implemented physics, entity synching, and major parts of protocol (1.20). Pending major rewrite in newest version.
   
 - **Rena**: C# multimedia framework w/batteries included. *Unreleased/local*
   - Includes numerous things like a math library, graphics api abstraction (OGL and D3D11 implemented), windowing api, etc...
