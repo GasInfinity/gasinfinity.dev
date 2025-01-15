@@ -17,9 +17,10 @@ Education:
 - **2024-Present** - CS degree at the [Polytechnic University of Valencia](https://www.upv.es)
 
 Old projects (< 18 y.o. and maybe revisited for small changes):
-- **[Ink](https://github.com/GasInfinity/Ink)**: A performance oriented minigame minecraft server implementation in C#.
+- **[Ink](https://github.com/GasInfinity/Ink)** (MIT): A performance oriented minigame minecraft server implementation in C#.
   - Includes [Ink.Nbt](https://github.com/GasInfinity/Ink.Nbt), which I consider good enough for "general?" use, but needs docs and a better serialization API/structure. 
   - Status: Dropped, major parts of the protocol and server are implemented but I want to work on other projects and things like [Valence](https://valence.rs/) look already very good. 
+    - At least I learned some things about networking and code structure.
   
 - **Rena**: C# multimedia framework w/batteries included. *Unreleased/local*
   - Includes numerous things like a math library, graphics api abstraction (OGL and D3D11 implemented), windowing api, etc...
