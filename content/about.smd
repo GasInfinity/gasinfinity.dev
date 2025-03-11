@@ -16,13 +16,17 @@ Sami "GasInfinity" Gonzalez Boudrez <<me@gasinfinity.dev>>
 Education:
 - **2024-Present** - CS degree at the [Polytechnic University of Valencia](https://www.upv.es)
 
+Projects:
+- **[Rena.Interop.Khronos](https://github.com/GasInfinity/Rena.Interop.Khronos)** (MIT): An almost type-safe OpenGL & Vulkan bindings generator for .NET.
+- **[nzfat](https://github.com/GasInfinity/nzfat)** (MIT): A FAT12/16/32 implementation with VFAT support written in zig.
+
 Old projects (< 18 y.o. and maybe revisited for small changes):
 - **[Ink](https://github.com/GasInfinity/Ink)** (MIT): A performance oriented minigame minecraft server implementation in C#.
   - Includes [Ink.Nbt](https://github.com/GasInfinity/Ink.Nbt), which I consider good enough for "general?" use, but needs docs and a better serialization API/structure. 
-  - Status: Dropped, major parts of the protocol and server are implemented but I want to work on other projects and things like [Valence](https://valence.rs/) look already very good. 
+  - Status: On hold indefinitely.
     - At least I learned some things about networking and code structure.
-  
+
 - **Rena**: C# multimedia framework w/batteries included. *Unreleased/local*
   - Includes numerous things like a math library, graphics api abstraction (OGL and D3D11 implemented), windowing api, etc...
-  - Status: On hold, considering dropping. Maybe use SDL3 as a backend for Linux. Pending revisit (someday)
+  - Status: On hold indefinitely. Being worked on sporadically.
  
